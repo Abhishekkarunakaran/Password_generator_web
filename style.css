@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+section {
+    width: 100%;
+}
+
+#bg {
+    background: url(bg.jpg);
+    background-size:cover;
+    height: 100vh;
+    position: relative;
+}
+
+#container {
+    background-color: white;
+    width: 400px;
+    height: 350px;
+    padding: 20px 20px 20px 20px;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 3px rgba(0,0,0,0.2);
+    top:50%;
+    left: 50%;
+    margin-top: -170px;
+    margin-left: -220px ;
+    align-items: center;
+}
+
+#container h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: rgba(0,0,0,0.8);
+}
+
+#container p,input, span {
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+#slider-out {
+    color:green;
+}
+
+.sub-desc {
+    margin: 0;
+    color: red;
+    font-size: small;
+}
+
+.check-box{
+    font-size: small;
+    padding-left: 5px;
+}
+
+.gen-btn {
+    width: 160px;
+    height: 30px;
+    margin-left: 120px;
+    margin-top: 20px;
+    border: 0;
+    background-color: #1d5cbb;
+    border-radius: 5px;
+    color: antiquewhite;
+    font-weight: 600;
+    box-shadow: 0 5px 10px 1px rgba(0,0,0,0.3);   
+}
+
+#password-text {
+    padding-top:10px;
+    text-align: center;
+}
+
+#final-password {
+    color: #1d5cbb;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#tooltip {
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 10px;
+    width: 80px;
+    background-color: rgba(0,0,0,0.7);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+}
